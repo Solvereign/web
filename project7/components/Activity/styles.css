@@ -1,0 +1,15 @@
+.activity-list {
+	align-items: center;
+	width: 80%;
+	/* height: 300px; */
+	/* align-items: center; */
+	/* justify-content: center; */
+}
+
+.activity-listItem {
+	align-items: center;
+	/* justify-content: center; */
+	vertical-align: middle;
+	/* height: 60px; */
+	/* line-height: 60px; */
+}

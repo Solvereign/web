@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+.cs142-header-div {
+	background-color: black;
+	/* background-size: cover; */
+	position: relative;
+	/* background-image: url("https://ichef.bbci.co.uk/news/976/mcs/media/images/77035000/jpg/_77035014_allthedoctors.jpg"); */
+	background-image: url("https://cdn.discordapp.com/attachments/818066705157980161/1170767797693984829/doctors12.jpg");
+	/* background-image: url('./images/doctors12.jpg'); */
+	/* background-image: url("https://cdn.discordapp.com/attachments/818066705157980161/1170767797693984829/doctors12.jpg?ex=655a3d7a&is=6547c87a&hm=061a93219740b94091fff311ec23be64749073f9a56c159f61cd2adb571e6e9c&"); */
+	background-position: center ;
+	background-repeat: no-repeat;
+	height:auto;
+	height: 350px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.cs142-header-text {
+	font-family: 'Dancing Script', cursive;
+	color: #003B6F;
+	font-size: 40px;
+	text-shadow: 2px 2px 4px white;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.cs142-header-tardis {
+	position: absolute;
+	color: #003B6F;
+	animation-name: tardis;
+	animation-duration: 12s;
+	/* animation-delay: 2s; */
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	/* left: 20px;
+	top: 20px; */
+}
+/* neg taldaa 4, 4 udaa tod/budeg bolno. */
+/* tegeheer niit 16 gesen ug uu? */
+/* @keyframes tardis {
+	0% {left: 20px; top: 20px; opacity: 1;} 
+	7% {left: 20px; top: 20px; opacity: 0.6;}
+	14% {left: 20px; top: 20px; opacity: 0.9;}
+	21% {left: 20px; top: 20px; opacity: 0.5;}
+	28% {left: 20px; top: 20px; opacity: 0.7;}
+	35% {left: 20px; top: 20px; opacity: 0.3;}
+	42% {left: 20px; top: 20px; opacity: 0.5;}
+	50% {left: 20px; top: 20px; opacity: 0;}
+
+	57% {right: 20px; bottom: 20px; opacity: 0.5;}
+	64% {right: 20px; bottom: 20px; opacity: 0.3;}
+	71% {right: 20px; bottom: 20px; opacity: 0.7;}
+	78% {right: 20px; bottom: 20px; opacity: 0.5;}
+	85% {right: 20px; bottom: 20px; opacity: 0.9;}
+	92% {right: 20px; bottom: 20px; opacity: 0.6;}
+	% {right: 20px; bottom: 20px; opacity: 1;}
+	100% {right: 20px; bottom: 20px; opacity: 1;}
+} */
+
+@keyframes tardis {
+
+	0% {left: 20px; top: 20px; opacity: 1;} 
+	6% {left: 20px; top: 20px; opacity: 1;} 
+	13% {left: 20px; top: 20px; opacity: 0.6;}
+	19% {left: 20px; top: 20px; opacity: 0.9;}
+	25% {left: 20px; top: 20px; opacity: 0.5;}
+	31% {left: 20px; top: 20px; opacity: 0.7;}
+	38% {right: 20px; bottom: 20px; opacity: 0.3;}
+	44% {right: 20px; bottom: 20px; opacity: 0.5;}
+	
+	49% {right: 20px; bottom: 20px; opacity: 0;}
+	50% {right: 20px; bottom: 20px; opacity: 0;}
+	50% {right: 20px; bottom: 20px; opacity: 0;}
+	51% {right: 20px; bottom: 20px; opacity: 0;}
+
+	56% {right: 20px; bottom: 20px; opacity: 0.5;}
+	63% {right: 20px; bottom: 20px; opacity: 0.3;}
+	69% {right: 20px; bottom: 20px; opacity: 0.7;}
+	75% {right: 20px; bottom: 20px; opacity: 0.5;}
+	81% {right: 20px; bottom: 20px; opacity: 0.9;}
+	88% {right: 20px; bottom: 20px; opacity: 0.6;}
+	94% {right: 20px; bottom: 20px; opacity: 1;}
+	100% {right: 20px; bottom: 20px; opacity: 1;}
+}
+	
+/* 
+@keyframes tardis {
+
+	0% {left: 20px; top: 20px; opacity: 1;} 
+	6% {left: 20px; top: 20px; opacity: 1;} 
+	13% {left: 20px; top: 20px; opacity: 0.6;}
+	19% {left: 20px; top: 20px; opacity: 0.9;}
+	25% {left: 20px; top: 20px; opacity: 0.5;}
+	31% {left: 20px; top: 20px; opacity: 0.7;}
+	38% {left: 20px; top: 20px; opacity: 0.3;}
+	44% {left: 20px; top: 20px; opacity: 0.5;}
+	
+	49% {left: 20px; top: 20px; opacity: 0;}
+	50% {left: 20px; top: 20px; opacity: 0;}
+
+	50% {left:93% ; top: 65%; opacity: 0;}
+	51% {left:93% ; top: 65%; opacity: 0;}
+
+	56% {left:93% ; top: 65%; opacity: 0.5;}
+	63% {left:93% ; top: 65%; opacity: 0.3;}
+	69% {left:93% ; top: 65%; opacity: 0.7;}
+	75% {left:93% ; top: 65%; opacity: 0.5;}
+	81% {left:93% ; top: 65%; opacity: 0.9;}
+	88% {left:93% ; top: 65%; opacity: 0.6;}
+	94% {left:93% ; top: 65%; opacity: 1;}
+	100% {left:93% ; top: 65%; opacity: 1;}
+}
+	 */

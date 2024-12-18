@@ -1,0 +1,19 @@
+/**
+ * CSS for the CS142 Project 4, Problem 2 States component.
+ * 
+ * Since CSS uses a global name space for classes we should use names starting
+ * with "cs142-states-" here.
+ */
+
+ .cs142-states-input {
+	/* border-color: blue; */
+	box-shadow: 3px 4px 5px ;
+ }
+
+ .cs142-states-list {
+	list-style: decimal;
+ }
+
+ .cs142-states-list li {
+	margin: 5px 0;
+ }

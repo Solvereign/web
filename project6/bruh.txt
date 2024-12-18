@@ -1,0 +1,61 @@
+async.each(photoObj.comments, 
+	function(oneComment, callback) {
+			let user_id = oneComment.user._id;
+			User.findOne({_id: user_id}, function(err, author) {
+				if(!err) {
+					// console.error(err);
+					// return;
+					// if(!author) {
+					// 	response.status(500).send("Missing user");
+					// 	callback(error);
+					// }
+					let author_detail = {
+						_id: author._id,
+						first_name: author.first_name,
+						last_name: author.last_name,
+					}
+					oneComment.user = author_detail;
+				}
+				console.log(oneComment);
+				callback(err);
+				
+			}); }
+			, 
+		function(error) {
+			callback(error);
+		});
+		response.end(JSON.stringify)
+		console.log(photoList);
+
+
+butelguitel 2 
+
+for( let photoObj of photoList) {
+			async.each(photoObj.comments, 
+				function(comment, done_callback) {
+					let user_id = comment.user._id;
+					User.findOne({_id: user_id}, function(err, author) {
+						if(!err) {
+							let author_detail = {
+								_id: author._id,
+								first_name: author.first_name,
+								last_name: author.last_name,
+							}
+							comment.user = author_detail;
+							console.log("aldaa garaad baigaa gazar ene dee");
+							console.log(comment);
+						}
+						// callback(err);
+					})
+				}, function(err) {
+					if(err) {
+						response.status(400).send(JSON.stringify(err));
+					} else {
+						// const obj = {};
+						console.log("photoList");
+						console.log(photoList);
+						response.status(200).send(photoList);
+						return;
+					}
+				})
+		}

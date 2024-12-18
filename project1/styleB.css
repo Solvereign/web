@@ -1,0 +1,37 @@
+body {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 40px;
+}
+.container {
+	height: 100%;
+	width: 750px;
+	display: flex;
+}
+
+.card {
+	margin-left: 10px;
+	width: 100px;
+	height: 150px;
+	background-color: #eeeff2;
+	border-left: 10px dotted #d0d0ff;
+	display: block;
+}
+
+.card:hover {
+	cursor: pointer;
+	background-color: yellow;
+	color: goldenrod;
+}
+.card > p {
+	text-transform: uppercase;
+	margin: 10px;
+	padding: 0;
+}
+
+.card:last-child {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+

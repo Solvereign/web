@@ -1,0 +1,70 @@
+.calendar {
+	border: 2px solid black;
+	border-radius: 5px;
+	
+	display: flex;
+	flex-direction: column;
+
+	width: 250px;
+
+	padding: 10px;
+}
+
+.calendarHeader {
+	align-items: center;
+	display: flex;
+}
+.calendarButton {
+	margin: 4px;
+	padding: 1px 4px;
+	border: 2px solid black;
+	border-radius: 5px
+}
+.calendarButton:hover {
+	cursor: pointer;
+}
+
+.calendarMonthYear {
+	font-weight: bold;
+	text-align: center;
+	flex: 1 0 auto;
+}
+
+/* .calendarBody {
+	margin: 5px;	
+} */
+
+.weekdaysHead {
+	margin-bottom: 5px;
+}
+.weekdaysName {
+	font-weight: bold;
+}
+
+.calendarDay {
+	padding: auto;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.selectedDay {
+	background-color: rgb(209, 120, 24);
+}
+
+.selectedDay:hover {
+	background-color: rgb(168, 97, 21);
+}
+
+.offDay {
+	color:gray;
+}
+
+.onDay {
+	color: black;
+}
+
+.offDay:hover, .onDay:hover {
+	background-color: rgb(232, 173, 110);
+}
+
+

@@ -1,0 +1,73 @@
+/* 
+img {
+	object-fit: cover;
+} */
+.photo-date, .comment-date{
+	/* font-family: inherit; */
+	color: gray;
+	opacity: 0.7;
+	text-align: right;
+}
+
+.photo-container {
+	padding: 5px;
+}
+
+
+.comment-date{
+	/* font-family: inherit; */
+	color: gray;
+	opacity: 0.7;
+	text-align: right;
+}
+
+.comment-user a{
+	font: bolder;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+.comment-user a:visited {
+	color: black;
+}
+
+.comment-user a:hover {
+	text-decoration: underline;
+}
+
+.photo-container {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding-top: 10px;
+
+}
+
+.photo-container img {
+	display: block;
+	max-width: 95%;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.comment-para {
+	margin: 0px;
+	padding: 0;
+}
+p {
+	margin-top: 5px;
+}
+
+.comment-input {
+	margin: 0 5px 0 15px;
+}
+
+.comment-like-count {
+	margin: 0 0 0 0;
+}
+
+.comment {
+	border: 1px solid black;
+}
